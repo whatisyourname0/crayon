@@ -36,11 +36,12 @@ const Wrapper = styled.span<{ $width?: string }>`
   > span:first-of-type {
     position: unset !important;
 
-    transition: transform ease 0.3s, box-shadow ease 0.3s;
+    transition: transform ease 0.3s, filter ease 0.3s;
 
     :hover {
       transform: scale(1.01);
-      box-shadow: 0 0 20px lightgray;
+      /* box-shadow: 0 0 20px lightgray; */
+      filter: drop-shadow(10px 8px 4px #6b6b6b);
     }
 
     img {

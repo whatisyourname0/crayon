@@ -1,5 +1,8 @@
 1. Tag 10개 이상시 Title과 여러 레이아웃이 밑으로 밀려버림
 => Tag 줄이기? Tag filter?
+
 2. md에서 img hover시 box-shadow => drop-shadow
 => for transparency, outline support
+
 3. Prefers-color-scheme 관련
+=> html이 전체 화면이 아니라 깨짐.

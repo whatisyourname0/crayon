@@ -1,10 +1,11 @@
 ---
 title: Sample Post 1
 date: 2022-09-19
-category: Category A
+category: GDSC
 tags:
-  - Tag A
-  - Tag B
+  - One!
+  - Two!
+  - Three!
 ---
 
 This is a **sample post**.
@@ -49,6 +50,8 @@ _This is an emphasized paragraph._
 
 <img src="hamburger.jpg" alt="Hamburger" width="40%"/>
 
+![It's me!](nooki.png)
+
 # Links
 
 ---
@@ -86,3 +89,5 @@ puts markdown.to_html
 ```c
 printf("Hello World");
 ```
+
+<script src=">
